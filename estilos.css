@@ -1,0 +1,24 @@
+body{
+margin: 0px;
+padding: 0px;
+
+}
+
+body img{
+    
+     width: 100px;
+     height: 100%;    
+}
+
+ .titles{
+   background-color: red;
+
+}
+table a{
+  color: aqua;
+
+}
+
+.table-section{
+    background-color: rgb(255, 255, 255);
+}
