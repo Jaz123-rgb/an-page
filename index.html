@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
-    <link rel="icon" href="assets/logo.png">
-    <link rel="stylesheet" href="estilos.css">
     <link rel="stylesheet" href="assets/css/estilos.css">
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/swiper.min.css">
@@ -17,7 +15,6 @@
     <link rel="stylesheet" href="assets/fonts/Lemons.ttf">
     <title>"Canchita Zague"</title>
 </head>
-
 <body>
     <header class="menu">
         <img class="logo" src="assets/img-forn/logo.png" alt="logo">
@@ -30,6 +27,7 @@
             </ul>
         </nav>
     </header>
+
     <main>
         <section class="slide-container">
 
@@ -38,18 +36,18 @@
                     <div class="swiper mySwiper swiper-initialized swiper-horizontal swiper-pointer-events">
                         <div class="swiper-wrapper" id="swiper-wrapper-3a5e8f8a44f67439" aria-live="off"
                             style="transition-duration: 1000ms; transform: translate3d(-6980px, 0px, 0px);">
+
                             <div class="swiper-slide" role="group" aria-label="1 / 9"
                                 style="width: 100%; margin-right: 1px;">
-                                <img src="assets/img-forn/pelota1.jpeg" alt="pd101" height="500px">
-                                <div class="bantxt">
-                                    <!-- <h3>Muebles en optimas<br><span>condiciones</span></h3>
-                        <a href="promociones.html"><button>Promociones</button></a>-->
-                                </div>
+                                <img src="assets/img-forn/img-slide-1.png" alt="pd101" height="500px" style=" display: flex;
+                                justify-content: flex-end;
+                                align-items: center;">
+                                
 
                             </div>
                             <div class="swiper-slide" role="group" aria-label="2 / 9"
                                 style="width: 1366px; margin-right: 0px;">
-                                <img src="assets/img-forn/pelota1.jpeg" alt="pd101" width="auto" height="500px">
+                                <img src="assets/img-forn/img-slide-2.png" alt="pd101" width="auto" height="500px">
                                 <div class="bantxt">
                                     <h3></h3>
                                 </div>
@@ -57,34 +55,22 @@
                             </div>
                             <div class="swiper-slide" role="group" aria-label="3 / 9"
                                 style="width: 1366px; margin-right: 350px;">
-                                <img src="assets/img-forn/pelota1.jpeg" alt="pd101" height="500px">
+                                <img src="assets/img-forn/img-slide-3.png" alt="pd101" height="500px">
                                 <!--<h3>Nuevos modelos</h3>
                       <a href="promociones.html"><button>Promociones</button></a>-->
                             </div>
                             <div class="swiper-slide" role="group" aria-label="4 / 9"
                                 style="width: 1366px; margin-right: 350px;">
-                                <img src="assets/img/Des-13.JPG" alt="pd101" height="500px ">
+                                <img src="assets/img-forn/img-slide-4.png" alt="pd101" height="500px ">
 
                             </div>
                             <div class="swiper-slide" role="group" aria-label="5 / 9"
                                 style="width: 1366px; margin-right: 350px;">
-                                <img src="assets/img/Des-4.jpg" alt="casos" height="500px">
+                                <img src="assets/img-forn/img-slide-5.png" alt="casos" height="500px">
                             </div>
-                            <div class="swiper-slide" role="group" aria-label="6 / 9"
-                                style="width: 1366px; margin-right: 350px;">
-                                <img src="assets/img/Des-5.jpg" alt="casos" height="500px">
-                            </div>
-                            <div class="swiper-slide" role="group" aria-label="7 / 9"
-                                style="width: 1366px; margin-right: 350px;">
-                                <img src="assets/img/Des-6.jpg" alt="casos" height="500px">
-                            </div>
-                            <div class="swiper-slide" role="group" aria-label="8 / 9"
-                                style="width: 1366px; margin-right: 350px;">
-                                <img src="assets/img/Des-7.jpg" alt="casos" height="500px">
-                            </div>
-                            <div class="swiper-slide" role="group" aria-label="9 / 9"
-                                style="width: 1366px; margin-right: 350px;">
-                                <img src="assets/img/Des-8.jpg" alt="casos" height="500px"></div>
+                            
+                            
+                            
                         </div>
                         <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide"
                             aria-controls="swiper-wrapper-3a5e8f8a44f67439" aria-disabled="false"></div>
@@ -127,6 +113,29 @@
     <footer>
 
     </footer>
+
+    <script src="assets/js/animado.js"></script>
+  <script src="assets/js/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 10000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+
+    </script>
+
 </body>
 
 </html>
